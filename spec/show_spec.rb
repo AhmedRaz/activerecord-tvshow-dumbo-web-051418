@@ -54,6 +54,7 @@ describe Show do
 
   describe "::least_popular_show" do
     it "returns the tv show with the lowest rating" do
+      
       expect(Show.least_popular_show).to eq(@the_cleveland_show)
     end
   end
